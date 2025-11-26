@@ -1,21 +1,10 @@
-<robot name="g1_29dof_lock_waist_rev_1_0">
+<robot name="g1">
   <material name="dark">
     <color rgba="0.2 0.2 0.2 1"/>
   </material>
   <material name="white">
     <color rgba="0.7 0.7 0.7 1"/>
   </material>
-
-  <mujoco>
-    <compiler meshdir="meshes" discardvisual="false"/>
-  </mujoco>
-
-  <!-- [CAUTION] uncomment when convert to mujoco -->
-  <!-- <link name="world"></link>
-  <joint name="floating_base_joint" type="floating">
-    <parent link="world"/>
-    <child link="pelvis"/>
-  </joint> -->
 
   <link name="pelvis">
     <inertial>
