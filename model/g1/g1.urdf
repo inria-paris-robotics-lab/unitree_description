@@ -25,13 +25,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/pelvis.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/pelvis.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/pelvis_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/pelvis_collision.STL"/>
       </geometry>
     </collision>
   </link>
@@ -42,13 +42,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/pelvis_contour_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/pelvis_contour_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/pelvis_contour_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/pelvis_contour_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -66,13 +66,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_hip_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_hip_pitch_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_hip_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_hip_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -91,13 +91,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_hip_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_hip_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_hip_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_hip_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -116,13 +116,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_hip_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_hip_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_hip_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_hip_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -141,13 +141,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_knee_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_knee_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_knee_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_knee_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -166,13 +166,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_ankle_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_ankle_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_ankle_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_ankle_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -191,13 +191,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_ankle_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_ankle_roll_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_ankle_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_ankle_roll_link_collision.STL"/>
       </geometry>
     </collision>
                   </link>
@@ -216,13 +216,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_hip_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_hip_pitch_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_hip_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_hip_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -241,13 +241,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_hip_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_hip_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_hip_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_hip_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -266,13 +266,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_hip_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_hip_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_hip_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_hip_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -291,13 +291,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_knee_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_knee_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_knee_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_knee_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -316,13 +316,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_ankle_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_ankle_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_ankle_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_ankle_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -341,13 +341,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_ankle_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_ankle_roll_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_ankle_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_ankle_roll_link_collision.STL"/>
       </geometry>
     </collision>
                   </link>
@@ -368,13 +368,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/waist_yaw_link_rev_1_0.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/waist_yaw_link_rev_1_0.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/waist_yaw_link_rev_1_0_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/waist_yaw_link_rev_1_0_collision.STL"/>
       </geometry>
     </collision>
   </link>
@@ -392,13 +392,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/waist_roll_link_rev_1_0.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/waist_roll_link_rev_1_0.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/waist_roll_link_rev_1_0_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/waist_roll_link_rev_1_0_collision.STL"/>
       </geometry>
     </collision>
   </link>
@@ -417,13 +417,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/torso_link_rev_1_0.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/torso_link_rev_1_0.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/torso_link_rev_1_0_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/torso_link_rev_1_0_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -447,13 +447,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/logo_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/logo_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/logo_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/logo_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -467,13 +467,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/head_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/head_link.STL"/>
       </geometry>
       <material name="dark"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/head_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/head_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -524,13 +524,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_shoulder_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_shoulder_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_shoulder_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_shoulder_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -549,13 +549,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_shoulder_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_shoulder_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_shoulder_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_shoulder_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -574,13 +574,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_shoulder_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_shoulder_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_shoulder_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_shoulder_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -599,13 +599,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_elbow_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_elbow_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_elbow_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_elbow_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -631,13 +631,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_wrist_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_wrist_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_wrist_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_wrist_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -656,13 +656,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_wrist_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_wrist_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_wrist_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_wrist_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -681,13 +681,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_wrist_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_wrist_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_wrist_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_wrist_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -704,13 +704,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/left_rubber_hand.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/left_rubber_hand.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/left_rubber_hand_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_rubber_hand_collision.STL"/>
       </geometry>
     </collision>
   </link>
@@ -722,13 +722,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_shoulder_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_shoulder_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_shoulder_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_shoulder_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -747,13 +747,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_shoulder_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_shoulder_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_shoulder_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_shoulder_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -772,13 +772,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_shoulder_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_shoulder_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_shoulder_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_shoulder_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -797,13 +797,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_elbow_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_elbow_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_elbow_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_elbow_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -829,13 +829,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_wrist_roll_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_wrist_roll_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_wrist_roll_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_wrist_roll_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -854,13 +854,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_wrist_pitch_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_wrist_pitch_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_wrist_pitch_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_wrist_pitch_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -879,13 +879,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_wrist_yaw_link.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_wrist_yaw_link.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_wrist_yaw_link_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_wrist_yaw_link_collision.STL"/>
       </geometry>
     </collision>
       </link>
@@ -902,13 +902,13 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/right_rubber_hand.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/visuals/right_rubber_hand.STL"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collision/right_rubber_hand_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_rubber_hand_collision.STL"/>
       </geometry>
     </collision>
   </link>
