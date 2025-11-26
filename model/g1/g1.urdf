@@ -451,11 +451,6 @@
       </geometry>
       <material name="dark"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/logo_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
 
   <!-- Head -->
