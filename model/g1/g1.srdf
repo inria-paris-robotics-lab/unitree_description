@@ -43,4 +43,89 @@
     <disable_collisions link1="right_wrist_roll_link" link2="right_wrist_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="right_wrist_pitch_link" link2="right_wrist_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="right_wrist_yaw_link" link2="right_rubber_hand" reason="Adjacent"/>
+
+    <group name="whole_body">
+        <joint name="pelvis"/>
+        <joint name="pelvis_contour_link"/>
+        <joint name="left_hip_pitch_link"/>
+        <joint name="left_hip_roll_link"/>
+        <joint name="left_hip_yaw_link"/>
+        <joint name="left_knee_link"/>
+        <joint name="left_ankle_pitch_link"/>
+        <joint name="left_ankle_roll_link"/>
+        <joint name="right_hip_pitch_link"/>
+        <joint name="right_hip_roll_link"/>
+        <joint name="right_hip_yaw_link"/>
+        <joint name="right_knee_link"/>
+        <joint name="right_ankle_pitch_link"/>
+        <joint name="right_ankle_roll_link"/>
+        <joint name="waist_yaw_link"/>
+        <joint name="waist_roll_link"/>
+        <joint name="torso_link"/>
+        <joint name="logo_link"/>
+        <joint name="head_link"/>
+        <joint name="imu_in_torso"/>
+        <joint name="imu_in_pelvis"/>
+        <joint name="d435_link"/>
+        <joint name="mid360_link"/>
+        <joint name="left_shoulder_pitch_link"/>
+        <joint name="left_shoulder_roll_link"/>
+        <joint name="left_shoulder_yaw_link"/>
+        <joint name="left_elbow_link"/>
+        <joint name="left_wrist_roll_link"/>
+        <joint name="left_wrist_pitch_link"/>
+        <joint name="left_wrist_yaw_link"/>
+        <joint name="left_rubber_hand"/>
+        <joint name="right_shoulder_pitch_link"/>
+        <joint name="right_shoulder_roll_link"/>
+        <joint name="right_shoulder_yaw_link"/>
+        <joint name="right_elbow_link"/>
+        <joint name="right_wrist_roll_link"/>
+        <joint name="right_wrist_pitch_link"/>
+        <joint name="right_wrist_yaw_link"/>
+        <joint name="right_rubber_hand"/>
+    </group>
+
+    <group_state name="standing" group="whole_body">
+        <joint name="root_joint" value="0. 0. 0.7923 0. 0. 0. 1."/>
+        <joint name="pelvis" value="0."/>
+        <joint name="pelvis_contour_link" value="0."/>
+        <joint name="left_hip_pitch_link" value="0."/>
+        <joint name="left_hip_roll_link" value="0."/>
+        <joint name="left_hip_yaw_link" value="0."/>
+        <joint name="left_knee_link" value="0."/>
+        <joint name="left_ankle_pitch_link" value="0."/>
+        <joint name="left_ankle_roll_link" value="0."/>
+        <joint name="right_hip_pitch_link" value="0."/>
+        <joint name="right_hip_roll_link" value="0."/>
+        <joint name="right_hip_yaw_link" value="0."/>
+        <joint name="right_knee_link" value="0."/>
+        <joint name="right_ankle_pitch_link" value="0."/>
+        <joint name="right_ankle_roll_link" value="0."/>
+        <joint name="waist_yaw_link" value="0."/>
+        <joint name="waist_roll_link" value="0."/>
+        <joint name="torso_link" value="0."/>
+        <joint name="logo_link" value="0."/>
+        <joint name="head_link" value="0."/>
+        <joint name="imu_in_torso" value="0."/>
+        <joint name="imu_in_pelvis" value="0."/>
+        <joint name="d435_link" value="0."/>
+        <joint name="mid360_link" value="0."/>
+        <joint name="left_shoulder_pitch_link" value="0."/>
+        <joint name="left_shoulder_roll_link" value="0."/>
+        <joint name="left_shoulder_yaw_link" value="0."/>
+        <joint name="left_elbow_link" value="0."/>
+        <joint name="left_wrist_roll_link" value="0."/>
+        <joint name="left_wrist_pitch_link" value="0."/>
+        <joint name="left_wrist_yaw_link" value="0."/>
+        <joint name="left_rubber_hand" value="0."/>
+        <joint name="right_shoulder_pitch_link" value="0."/>
+        <joint name="right_shoulder_roll_link" value="0."/>
+        <joint name="right_shoulder_yaw_link" value="0."/>
+        <joint name="right_elbow_link" value="0."/>
+        <joint name="right_wrist_roll_link" value="0."/>
+        <joint name="right_wrist_pitch_link" value="0."/>
+        <joint name="right_wrist_yaw_link" value="0."/>
+        <joint name="right_rubber_hand" value="0."/>
+    </group_state>
 </robot>
