@@ -12,12 +12,14 @@
     <disable_collisions link1="left_hip_yaw_link" link2="left_knee_link" reason="Adjacent"/>
     <disable_collisions link1="left_knee_link" link2="left_ankle_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="left_ankle_pitch_link" link2="left_ankle_roll_link" reason="Adjacent"/>
+    <disable_collisions link1="left_knee_link" link2="left_ankle_roll_link" reason="Adjacent"/>
     <disable_collisions link1="pelvis" link2="right_hip_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="right_hip_pitch_link" link2="right_hip_roll_link" reason="Adjacent"/>
     <disable_collisions link1="right_hip_roll_link" link2="right_hip_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="right_hip_yaw_link" link2="right_knee_link" reason="Adjacent"/>
     <disable_collisions link1="right_knee_link" link2="right_ankle_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="right_ankle_pitch_link" link2="right_ankle_roll_link" reason="Adjacent"/>
+    <disable_collisions link1="right_knee_link" link2="right_ankle_roll_link" reason="Adjacent"/>
     <disable_collisions link1="pelvis" link2="waist_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="waist_yaw_link" link2="waist_roll_link" reason="Adjacent"/>
     <disable_collisions link1="waist_roll_link" link2="torso_link" reason="Adjacent"/>

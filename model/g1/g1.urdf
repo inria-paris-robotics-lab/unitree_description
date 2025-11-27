@@ -154,11 +154,6 @@
       </geometry>
       <material name="white"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/left_ankle_pitch_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
   <joint name="left_ankle_pitch_joint" type="revolute">
     <origin xyz="0 -9.4445E-05 -0.30001" rpy="0 0 0"/>
@@ -304,11 +299,6 @@
       </geometry>
       <material name="white"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/right_ankle_pitch_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
   <joint name="right_ankle_pitch_joint" type="revolute">
     <origin xyz="0 9.4445E-05 -0.30001" rpy="0 0 0"/>
