@@ -669,11 +669,6 @@
       </geometry>
       <material name="white"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/left_wrist_yaw_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
   <joint name="left_hand_palm_joint" type="fixed">
     <origin xyz="0.0415 0.003 0" rpy="0 0 0"/>
@@ -694,7 +689,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/left_rubber_hand_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/left_wrist_hand_collision.STL"/>
       </geometry>
     </collision>
   </link>
@@ -867,11 +862,6 @@
       </geometry>
       <material name="white"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/right_wrist_yaw_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
   <joint name="right_hand_palm_joint" type="fixed">
     <origin xyz="0.0415 -0.003 0" rpy="0 0 0"/>
@@ -892,7 +882,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/right_rubber_hand_collision.STL"/>
+        <mesh filename="package://go2_description/model/g1/assets/collisions/right_wrist_hand_collision.STL"/>
       </geometry>
     </collision>
   </link>

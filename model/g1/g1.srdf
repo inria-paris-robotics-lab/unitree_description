@@ -35,6 +35,7 @@
     <disable_collisions link1="left_wrist_roll_link" link2="left_wrist_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="left_wrist_pitch_link" link2="left_wrist_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="left_wrist_yaw_link" link2="left_rubber_hand" reason="Adjacent"/>
+    <disable_collisions link1="left_wrist_pitch_link" link2="left_rubber_hand" reason="Adjacent"/>
     <disable_collisions link1="torso_link" link2="right_shoulder_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="right_shoulder_pitch_link" link2="right_shoulder_roll_link" reason="Adjacent"/>
     <disable_collisions link1="right_shoulder_roll_link" link2="right_shoulder_yaw_link" reason="Adjacent"/>
@@ -43,6 +44,7 @@
     <disable_collisions link1="right_wrist_roll_link" link2="right_wrist_pitch_link" reason="Adjacent"/>
     <disable_collisions link1="right_wrist_pitch_link" link2="right_wrist_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="right_wrist_yaw_link" link2="right_rubber_hand" reason="Adjacent"/>
+    <disable_collisions link1="right_wrist_pitch_link" link2="right_rubber_hand" reason="Adjacent"/>
 
     <group name="whole_body">
         <joint name="pelvis"/>
