@@ -21,6 +21,7 @@
     <disable_collisions link1="pelvis" link2="waist_yaw_link" reason="Adjacent"/>
     <disable_collisions link1="waist_yaw_link" link2="waist_roll_link" reason="Adjacent"/>
     <disable_collisions link1="waist_roll_link" link2="torso_link" reason="Adjacent"/>
+    <disable_collisions link1="pelvis" link2="torso_link" reason="Adjacent"/>
     <disable_collisions link1="torso_link" link2="logo_link" reason="Adjacent"/>
     <disable_collisions link1="torso_link" link2="head_link" reason="Adjacent"/>
     <disable_collisions link1="torso_link" link2="imu_in_torso" reason="Adjacent"/>
