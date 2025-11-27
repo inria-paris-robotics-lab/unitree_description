@@ -35,11 +35,6 @@
       </geometry>
       <material name="white"/>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://go2_description/model/g1/assets/collisions/pelvis_contour_link_collision.STL"/>
-      </geometry>
-    </collision>
       </link>
   <joint name="pelvis_contour_joint" type="fixed">
     <parent link="pelvis"/>
