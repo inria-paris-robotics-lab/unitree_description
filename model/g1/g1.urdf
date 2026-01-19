@@ -466,6 +466,20 @@
     <child link="d435_link"/>
   </joint>
 
+  <!-- battery -->
+  <link name="battery">
+    <inertial>
+      <mass value="2.5"/>
+      <inertia ixx="0.00975" ixy="0.0" ixz="0.0" iyy="0.004333333" iyz="0.0" izz="0.008083333"/>
+    </inertial>
+  </link>
+  <joint name="battery_joint" type="fixed">
+    <origin xyz="0.05 0.025 -0.01" rpy="0 0 0"/>
+    <parent link="imu_in_torso"/>
+    <child link="battery"/>
+  </joint>
+
+
   <!-- mid360 -->
   <link name="mid360_link"></link>
   <joint name="mid360_joint" type="fixed">
