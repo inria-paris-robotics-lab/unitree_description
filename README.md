@@ -8,4 +8,13 @@ The urdf are taken from Unitree repo https://github.com/unitreerobotics/unitree_
 * **29 DoF**, **machine mode 5 or 6** (depending if the waist roll pitch is free or locked)
 * **{14.3, 22.5}** hip.{roll, pitch} gear ratio 
 * **4010** wrist motors
-* **with_hand** or **without** depending if the dexterous hands are mounted or not
+* **with_hand** or **without** depending if the dexterous hands are mounted or 
+
+## Python example with Pinocchio
+
+```python
+# import pinocchio
+from unitree_description.loader import loadG1
+
+pinocchio_robot_wrapper = loadG1()
+```
