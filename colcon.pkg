@@ -1,6 +1,6 @@
 {
     "hooks": [
-        "share/go2_description/hook/ament_prefix_path.dsv",
-        "share/go2_description/hook/python_path.dsv"
+        "share/unitree_description/hook/ament_prefix_path.dsv",
+        "share/unitree_description/hook/python_path.dsv"
     ]
 }

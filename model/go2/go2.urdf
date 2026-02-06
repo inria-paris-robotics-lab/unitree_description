@@ -23,7 +23,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/base.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/base.dae" />
       </geometry>
       <material
         name="">
@@ -33,7 +33,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/collisions/base_convex.stl" />
+        <mesh filename="package://unitree_description/model/go2/assets/collisions/base_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -55,7 +55,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/hip.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/hip.dae" />
       </geometry>
       <material
         name="">
@@ -115,7 +115,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/thigh.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/thigh.dae" />
       </geometry>
       <material
         name="">
@@ -125,7 +125,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/thigh_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/thigh_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -180,7 +180,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/calf.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/calf.dae" />
       </geometry>
       <material
         name="">
@@ -190,12 +190,12 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_upper_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_upper_convex.stl" />
       </geometry>
     </collision>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_lower_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_lower_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -250,7 +250,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/foot.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/foot.dae" />
       </geometry>
       <material
         name="">
@@ -260,7 +260,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/foot_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/foot_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -298,7 +298,7 @@ Stephen Brawner (brawner@gmail.com)
         xyz="0 0 0"
         rpy="3.1415 0 0" />
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/hip.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/hip.dae" />
       </geometry>
       <material
         name="">
@@ -358,7 +358,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/thigh_mirror.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/thigh_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -368,7 +368,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/thigh_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/thigh_mirror_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -423,7 +423,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/calf_mirror.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/calf_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -433,12 +433,12 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_upper_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_upper_mirror_convex.stl" />
       </geometry>
     </collision>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_lower_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_lower_mirror_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -493,7 +493,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/foot.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/foot.dae" />
       </geometry>
       <material
         name="">
@@ -503,7 +503,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/foot_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/foot_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -541,7 +541,7 @@ Stephen Brawner (brawner@gmail.com)
         xyz="0 0 0"
         rpy="0 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/hip.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/hip.dae" />
       </geometry>
       <material
         name="">
@@ -554,7 +554,7 @@ Stephen Brawner (brawner@gmail.com)
         xyz="0 0 0"
         rpy="0 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2_description/model/assets/collisions/hip_convex.stl" />
+        <mesh filename="package://unitree_description/model/go2/assets/collisions/hip_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -609,7 +609,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/thigh.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/thigh.dae" />
       </geometry>
       <material
         name="">
@@ -619,7 +619,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/thigh_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/thigh_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -674,7 +674,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/calf.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/calf.dae" />
       </geometry>
       <material
         name="">
@@ -684,12 +684,12 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_upper_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_upper_convex.stl" />
       </geometry>
     </collision>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_lower_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_lower_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -744,7 +744,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/foot.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/foot.dae" />
       </geometry>
       <material
         name="">
@@ -754,7 +754,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/foot_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/foot_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -792,7 +792,7 @@ Stephen Brawner (brawner@gmail.com)
         xyz="0 0 0"
         rpy="3.1415 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/hip.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/hip.dae" />
       </geometry>
       <material
         name="">
@@ -805,7 +805,7 @@ Stephen Brawner (brawner@gmail.com)
         xyz="0 0 0"
         rpy="3.1415 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2_description/model/assets/collisions/hip_convex.stl" />
+        <mesh filename="package://unitree_description/model/go2/assets/collisions/hip_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -860,7 +860,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/thigh_mirror.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/thigh_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -870,7 +870,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/thigh_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/thigh_mirror_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -925,7 +925,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/calf_mirror.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/calf_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -935,12 +935,12 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_upper_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_upper_mirror_convex.stl" />
       </geometry>
     </collision>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/calf_lower_mirror_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/calf_lower_mirror_convex.stl" />
       </geometry>
     </collision>
   </link>
@@ -995,7 +995,7 @@ Stephen Brawner (brawner@gmail.com)
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://go2_description/model/assets/visuals/foot.dae" />
+        <mesh filename="package://unitree_description/model/go2/assets/visuals/foot.dae" />
       </geometry>
       <material
         name="">
@@ -1005,7 +1005,7 @@ Stephen Brawner (brawner@gmail.com)
     </visual>
     <collision>
         <geometry>
-          <mesh filename="package://go2_description/model/assets/collisions/foot_convex.stl" />
+          <mesh filename="package://unitree_description/model/go2/assets/collisions/foot_convex.stl" />
       </geometry>
     </collision>
   </link>

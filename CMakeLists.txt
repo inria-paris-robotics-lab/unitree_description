@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.22)
 
 set(PROJECT_ORG "inria-paris-robotics-lab")
-set(PROJECT_NAME go2_description)
+set(PROJECT_NAME unitree_description)
 set(PROJECT_DESCRIPTION "Description files (urdf/srdf/...) for the Unitree Go2, calibrated to INRIA Paris instances of the robot.")
-set(PROJECT_URL "https://github.com/inria-paris-robotics-lab/go2_description")
+set(PROJECT_URL "https://github.com/inria-paris-robotics-lab/unitree_description")
 
 # Check if the submodule cmake have been initialized
 set(JRL_CMAKE_MODULES "${CMAKE_CURRENT_LIST_DIR}/cmake")
