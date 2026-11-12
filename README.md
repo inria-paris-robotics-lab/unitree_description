@@ -27,5 +27,4 @@ pinocchio_robot_wrapper = loadG1(lock_waist=False)
 - [g1] adding battery to the URDF
 
 ### Utils
-Simplification scripts
-Pythons scripts that were used to analyze and simplify the meshes can be found in [this PR](https://github.com/inria-paris-robotics-lab/unitree_description/pull/10#issuecomment-3773000247)
+Python scripts that were used to analyze and simplify the meshes can be found in [this PR/commit history](https://github.com/inria-paris-robotics-lab/unitree_description/pull/10#issuecomment-3773000247)
