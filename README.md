@@ -6,9 +6,9 @@ The urdf are taken from Unitree repo https://github.com/unitreerobotics/unitree_
 
 **Note:** Out of all the urdf provided for the unitree G1 in [this table](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/README.md), our robots correspond to the one with :
 * **29 DoF**, **machine mode 5 or 6** (depending if the waist roll pitch is free or locked)
-* **{14.3, 22.5}** hip.{roll, pitch} gear ratio 
+* **{14.3, 22.5}** hip.{roll, pitch} gear ratio
 * **4010** wrist motors
-* **with_hand** or **without** depending if the dexterous hands are mounted or 
+* **with_hand** or **without** depending if the dexterous hands are mounted or
 
 ## Python example with Pinocchio
 
