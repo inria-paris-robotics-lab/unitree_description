@@ -1,4 +1,4 @@
-<robot name="g1">
+<robot name="g1_unlocked_waist">
   <material name="dark">
     <color rgba="0.2 0.2 0.2 1"/>
   </material>
@@ -177,7 +177,7 @@
     <collision>
       <geometry>
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_ankle_roll_link_collision.STL"/>
-      </geometry>     
+      </geometry>
     </collision>
   </link>
   <joint name="left_ankle_roll_joint" type="revolute">
