@@ -1,4 +1,4 @@
-<robot name="g1">
+<robot name="g1_locked_waist">
   <material name="dark">
     <color rgba="0.2 0.2 0.2 1"/>
   </material>
@@ -35,7 +35,7 @@
       </geometry>
       <material name="white"/>
     </visual>
-      </link>
+  </link>
   <joint name="pelvis_contour_joint" type="fixed">
     <parent link="pelvis"/>
     <child link="pelvis_contour_link"/>
@@ -59,7 +59,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_hip_pitch_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="left_hip_pitch_joint" type="revolute">
     <origin xyz="0 0.064452 -0.1027" rpy="0 0 0"/>
     <parent link="pelvis"/>
@@ -84,7 +84,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_hip_roll_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="left_hip_roll_joint" type="revolute">
     <origin xyz="0 0.052 -0.030465" rpy="0 -0.1749 0"/>
     <parent link="left_hip_pitch_link"/>
@@ -109,7 +109,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_hip_yaw_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="left_hip_yaw_joint" type="revolute">
     <origin xyz="0.025001 0 -0.12412" rpy="0 0 0"/>
     <parent link="left_hip_roll_link"/>
@@ -134,7 +134,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_knee_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="left_knee_joint" type="revolute">
     <origin xyz="-0.078273 0.0021489 -0.17734" rpy="0 0.1749 0"/>
     <parent link="left_hip_yaw_link"/>
@@ -154,7 +154,7 @@
       </geometry>
       <material name="white"/>
     </visual>
-      </link>
+  </link>
   <joint name="left_ankle_pitch_joint" type="revolute">
     <origin xyz="0 -9.4445E-05 -0.30001" rpy="0 0 0"/>
     <parent link="left_knee_link"/>
@@ -179,7 +179,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/left_ankle_roll_link_collision.STL"/>
       </geometry>
     </collision>
-                  </link>
+  </link>
   <joint name="left_ankle_roll_joint" type="revolute">
     <origin xyz="0 0 -0.017558" rpy="0 0 0"/>
     <parent link="left_ankle_pitch_link"/>
@@ -204,7 +204,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/right_hip_pitch_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="right_hip_pitch_joint" type="revolute">
     <origin xyz="0 -0.064452 -0.1027" rpy="0 0 0"/>
     <parent link="pelvis"/>
@@ -229,7 +229,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/right_hip_roll_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="right_hip_roll_joint" type="revolute">
     <origin xyz="0 -0.052 -0.030465" rpy="0 -0.1749 0"/>
     <parent link="right_hip_pitch_link"/>
@@ -254,7 +254,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/right_hip_yaw_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="right_hip_yaw_joint" type="revolute">
     <origin xyz="0.025001 0 -0.12412" rpy="0 0 0"/>
     <parent link="right_hip_roll_link"/>
@@ -279,7 +279,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/right_knee_link_collision.STL"/>
       </geometry>
     </collision>
-      </link>
+  </link>
   <joint name="right_knee_joint" type="revolute">
     <origin xyz="-0.078273 -0.0021489 -0.17734" rpy="0 0.1749 0"/>
     <parent link="right_hip_yaw_link"/>
@@ -299,7 +299,7 @@
       </geometry>
       <material name="white"/>
     </visual>
-      </link>
+  </link>
   <joint name="right_ankle_pitch_joint" type="revolute">
     <origin xyz="0 9.4445E-05 -0.30001" rpy="0 0 0"/>
     <parent link="right_knee_link"/>
@@ -324,7 +324,7 @@
         <mesh filename="package://unitree_description/model/g1/assets/collisions/right_ankle_roll_link_collision.STL"/>
       </geometry>
     </collision>
-                  </link>
+  </link>
   <joint name="right_ankle_roll_joint" type="revolute">
     <origin xyz="0 0 -0.017558" rpy="0 0 0"/>
     <parent link="right_ankle_pitch_link"/>
@@ -483,7 +483,7 @@
   <!-- mid360 -->
   <link name="mid360_link"></link>
   <joint name="mid360_joint" type="fixed">
-    <origin xyz="0.0002835 0.00003 0.41618" rpy="0 0.04014257279586953 0"/>
+    <origin xyz="0.0002835 0.00003 0.428434" rpy="3.141592653589793 0.05112069379091391 0"/>
     <parent link="torso_link"/>
     <child link="mid360_link"/>
   </joint>
